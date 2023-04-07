@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    margin: 50px;
+    max-width: 900px;
+    min-height: 1200px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.container .left-side {
+    position: relative;
+    /* background:#001f3f; */
+    background-image: url(./img/creative-background-with-wrinkled-paper-effect.jpg);
+    width: 350px;
+    padding: 30px;
+}
+.profiletext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+   
+}
+
+.profiletext h2{
+    color: black;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.profiletext h2 span{
+
+    color: black;
+    font-size:.8em;
+    /* font-weight: 100; */
+    align-items: center;
+    margin-left: 25px;
+}
+
+
+.profiletext .imgBx {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    font-size: 1.1rem;
+     padding: 5px;
+     margin-top: 20px;
+    color:black;
+    border-bottom: 1px solid black;
+}
+.contact i{
+    margin-right: 35px;
+    color:#4834d4;
+}
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding: 5px;
+    margin-top: 20px;
+    color: black;
+   
+}
+.phone i{
+    margin-right: 35px; 
+    font-size: 1.1rem; 
+    /* color: #0074D9; */
+
+} 
+.Education{
+    display: flex;
+    flex-direction: row;
+    align-items:first baseline;
+    padding: 5px;
+    margin-top: 20px;
+    color:black;
+}
+.Education i {
+    margin-right: 35px; 
+    /* font-size: 1.1rem;  */
+    /* color: #0074D9; */
+
+}
+.listdiv {
+    display: flex;
+    flex-direction:column;
+    align-items:first baseline;
+    padding: 5px;
+    margin-top: 20px;
+    color: black;
+}
+.listdiv div{
+    display: flex;
+    flex-direction: row;
+}
+.listdiv div li {
+    padding-right: 5px;
+}
+.div-2{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container .right-side {
+    position: relative;
+    background: black;
+    background-image:url(./img/design-space-paper-textured-background.jpg);
+    width: 700px;
+    padding: 25px;
+}
+
+.Profile-info{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    font-size: 1.1rem;
+     padding: 5px;
+     margin-top: 20px;
+    color:black;
+    border-bottom: 1px solid black;
+}
+.Profile-info i{
+    margin-right: 25px;
+    color :#4834d4;
+    font-size: 1.3rem;
+
+}
+.para{
+    margin-top: 20px;
+}
+
+.exp-div1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.exp-div1 .div01{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.exp-div1 .div01 i {
+    margin-right: 25px;
+    margin-left: 5px;
+    color :#4834d4;
+}
+
+.h3{
+    margin-left: 44px;
+    margin-top: 5px;
+}
+
+.para2{
+    margin-left: 44px;
+    margin-top: 5px;
+} 
+.skills{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.none{
+    margin-left: 44px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.fbghin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2.2rem;
+    color: #4834d4;
+}
+.fbghin i{
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
